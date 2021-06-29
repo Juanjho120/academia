@@ -1,0 +1,68 @@
+.tableCursos_head {
+    display: flex;
+    flex-direction: row;
+  }
+  .tableCursos_head--item {
+    width: 350px;
+    height: 40px;
+  }
+  .tableCursos_body {
+    display: flex;
+    flex-direction: column;
+  }
+  .tableCursos_body--row {
+    display: flex;
+    flex-direction: row;
+  }
+  .tableCursos_body--col {
+    width: 350px;
+    height: 40px;
+  }
+  
+  .titleArea {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .boxArea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px 0px;
+  }
+  
+  .detailMatricula {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .listCursos_head {
+    display: flex;
+    flex-direction: row;
+  }
+  .listCursos_head--item {
+    width: 300px;
+    height: 40px;
+  }
+  .listCursos_body {
+    display: flex;
+    flex-direction: column;
+  }
+  .listCursos_body--row {
+    display: flex;
+    flex-direction: row;
+  }
+  .listCursos_body--column {
+    width: 300px;
+    height: 40px;
+  }
+  
+  .centerLoading {
+    margin: 0 auto;
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
